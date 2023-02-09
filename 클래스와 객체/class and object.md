@@ -32,3 +32,11 @@
 <strong>멤버 변수는 왠만하면 private으로 지정하자!</strong><br>
 <strong>만약 private에 접근하려면, 생성자 or 멤버 함수를 이용</strong><br>
 <strong>생성자는 private으로 선언</strong><br>
+<h2>객체 포인터</h2>
+객체 배열 선언은 기본 생성자를 호출한다.
+-->그래서 setRadius()함수같은 멤버 함수를 이용한다.<br>
+''' c++
+Circle c[3] = {Circle(10), Circle(20), Circle()};
+'''
+<br>
+이런 형식으로 객체 배열을 선언과 동시에 초기화 가능하다.
